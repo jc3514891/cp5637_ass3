@@ -1,0 +1,194 @@
+/* CSS Document */
+body{
+		padding:50px;
+		margin:50px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+	}
+#header	{
+		width:100%;
+		height:160px;
+		clear:both;
+		background-image:
+		url(images/strawberry.jpe);
+	}
+
+.head{	
+		height:100px;
+		width:88%;
+		text-align:left;
+		float:left;
+		font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+		font-size:34px;
+		color:#990000;
+		padding-top:-15px;
+    }
+	
+#menubar{
+		width:100%;
+		clear:both;
+		height:50px;
+		background-color:#990000;	
+	}
+#menubar ul	{
+		margin:0px;
+		padding-left:304px;
+		padding-top:30px;
+	
+	}
+#menubar ul li{
+		margin-left:0px;
+		display:inline;
+		margin-right:15%;
+		width:20%;	
+	}
+#menubar ul li a{
+		text-decoration:none;
+		color:white;
+	}
+#menubar ul li a:hover{
+		color:black;
+	}
+#centerBar{
+		width:100%;
+		height:400px;
+		background:yellow;
+	}
+		
+.leftBar{
+		background-color:#CCCCCC;
+		height:400px;
+		width:20%;
+		float:left;
+		text-align:center;
+		border:thin#00EE00;
+	}
+h1 {
+		color: #000;
+		font-size: 2.7em;
+		margin:10px 10px;
+	}
+h4 {
+		color: #CC0047;
+		font-size: 1.2em;
+		font-weight: normal;
+		padding-bottom: 10px;
+		text-decoration:none;
+	}
+.sidebar {
+		float: left;
+		width: 27%;
+		margin-top: 10px;
+		margin-right: 1.5em;
+	}
+	
+
+.sidebar h4 {
+		padding-bottom: 0;
+		padding-left:3px;
+		font-size: 1.6em;
+		color: #333;
+		padding: 4px 0;
+		list-style:none;
+	}
+	
+.sidebar ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+.sidebar ul li {
+		margin-bottom: 20px;
+		line-height: 1.9em;
+		padding: 5px;
+	}
+	
+.sidebar ul li.bg {
+	   background-color: #f0f0f0;
+	}
+	
+.sidebar li ul {
+	    list-style: none outside none;
+	    margin: 0px;
+	}
+	
+.sidebar li ul li {
+		display: block;
+		border-top: none;
+		padding: 7px;
+		margin: 0;
+		line-height: 1.5em;
+		font-size: 0.85em;
+	}
+	
+.sidebar li ul li.text { 
+		border-bottom: none;
+	}
+.sidebar li ul li a {
+		font-weight: normal;
+		color: #666;
+	}
+	
+.sidebar li ul li a:hover {
+	    color: #000;
+	}
+	
+.sidebar li ul li a.readmore {
+	    font-weight: bold;
+	}
+	
+.clear {
+	    clear: both;
+	}
+	
+.contentBar	{
+		height:400px;
+		width:70%;
+		background-color:#FFFFFF;
+		text-align:left;
+		float:left;
+		padding:inherit;
+	}
+.rightBar{
+		height:400px;
+		width:10%;
+		float:left;
+		background-color:#CCCCCC;
+		list-style:none;
+	
+	}
+.button { 
+		background-color: #CC0047;
+		border-radius: 5px 5px 5px 5px;
+		color: #FFFFFF;
+		display: inline-block;
+		font-weight: bold;
+		padding: 8px 15px;
+		text-decoration: none;
+		text-transform: uppercase;
+		margin:10px 10px;
+	}
+	
+.button:hover {
+		background-color: #B3003E;
+	}
+	
+.button-reversed { 
+		background-color: #428BCA;
+	}
+	
+.button-reversed:hover {
+		background-color: #367FBF !important;
+   }
+	
+#footer{
+	background-color:#990000;
+	float:left;
+	height:100px;
+	width:50%;
+	text-align:left;
+	padding-top:20px;
+	padding-left:50%;
+  }
+	
